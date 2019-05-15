@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Protein digestion </title>
+    </head>
+
+    <h1> Protein digestion </h1>
+    <h2> Description of the tool </h2>
+
+    <body>
+
+    <script type="text/javascript" src="form.js"> </script> <!--Permet de préciser au navigateur que le script est en Javascript-->
+    <form id="form">
+        <input type="text" value="Protein" />
+        <br /><br />
+
+    <select id="list">
+        <option> Select a protease </option>
+        <!-- Insérer la liste des proteases disponibles depuis l'API-->
+        <option> Trypsin </option> 
+        <option> Caspase_1</option>
+    </select><br/>
+
+    <input type="submit" value="Search" />
+    <input type="reset" value="Reset" />
+
+    </form>
+
+    </body>
+</html>
